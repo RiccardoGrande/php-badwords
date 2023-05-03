@@ -14,18 +14,16 @@
 <body>
 
 <form action="myscript.php" method="get">
-    <div class="form-group">
-        <label for="name">paragrafo</label>
-        <textarea id="name" class="form-control" name="name" rows="3"></textarea>
-    </div>
+   
     <input type="text" name="name" id="name">
 </form>
 <form action="myscript.php" method="post">
     <div class="form-group">
-        <label for="name">paragrafo</label>
-        <textarea id="name" class="form-control" name="name" rows="3"></textarea>
+        <label for="par">paragrafo</label>
+        <textarea id="par" class="form-control" name="par" rows="3"></textarea>
+        <input type="button" value="send">
     </div>
-    <input type="text" name="name" id="name">
+    
 </form>
     
 </body>

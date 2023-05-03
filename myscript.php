@@ -4,6 +4,7 @@
 
 echo $_GET['name'];
 
+echo $_POST['par'];
 
 echo strlen($_GET['name']);
 
