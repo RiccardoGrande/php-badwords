@@ -2,6 +2,7 @@
 
 
 
+
 <!DOCTYPE html>
 <html lang="en">
 <head>
@@ -13,7 +14,17 @@
 <body>
 
 <form action="myscript.php" method="get">
-    <p>CIao questo è il paragrafo</p>
+    <div class="form-group">
+        <label for="name">paragrafo</label>
+        <textarea id="name" class="form-control" name="name" rows="3"></textarea>
+    </div>
+    <input type="text" name="name" id="name">
+</form>
+<form action="myscript.php" method="post">
+    <div class="form-group">
+        <label for="name">paragrafo</label>
+        <textarea id="name" class="form-control" name="name" rows="3"></textarea>
+    </div>
     <input type="text" name="name" id="name">
 </form>
     
